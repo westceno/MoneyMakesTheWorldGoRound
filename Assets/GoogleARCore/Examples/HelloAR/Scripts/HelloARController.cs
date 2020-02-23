@@ -21,6 +21,7 @@
 namespace GoogleARCore.Examples.HelloAR
 {
     using System.Collections.Generic;
+    using System;
     using GoogleARCore;
     using GoogleARCore.Examples.Common;
     using UnityEngine;
@@ -140,7 +141,7 @@ namespace GoogleARCore.Examples.HelloAR
 
                     for (int i = 0; i < 20; i++)
                     {
-                        Vector3 vector1 = new Vector3(0, i * 0.5f, 0);
+                        Vector3 vector1 = new Vector3(i * .1f, 0 , i * .1f);
                         Vector3 vector2 = vector1 + hit.Pose.position;
                         Pose pose = new Pose(vector2, hit.Pose.rotation);
                         // Instantiate prefab at the hit pose.
