@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void LoadAr()
     {
+        PlayerPrefs.SetInt("Count", 20);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

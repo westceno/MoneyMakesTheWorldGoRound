@@ -139,7 +139,7 @@ namespace GoogleARCore.Examples.HelloAR
                         prefab = GameObjectHorizontalPlanePrefab;
                     }
 
-                    for (int i = 0; i < 20; i++)
+                    for (int i = 0; i < PlayerPrefs.GetInt("Count"); i++)
                     {
                         Vector3 vector1 = new Vector3(i * .1f, 0 , i * .1f);
                         Vector3 vector2 = vector1 + hit.Pose.position;
