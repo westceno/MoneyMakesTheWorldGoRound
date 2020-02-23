@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
+- path: C:/Users/westc/Downloads/navigation_drawer-master/navigation_drawer-master/Assets/Navigation
+    drawer/Core/Scenes/NavigationDrawer.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

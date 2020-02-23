@@ -79,6 +79,7 @@
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\PointClickHandler.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReader.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReaderApi.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\ARMenu.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\HelloARController.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\Menu.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\DragGesture.cs" />
@@ -239,6 +240,7 @@
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
+     <Compile Include="Assets\Navigation drawer\Core\Scripts\NavDrawerPanel.cs" />
      <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
      <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
      <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />

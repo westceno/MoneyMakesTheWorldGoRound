@@ -37,6 +37,7 @@ namespace GoogleARCore.Examples.HelloAR
     /// </summary>
     public class HelloARController : MonoBehaviour
     {
+
         /// <summary>
         /// The first-person camera being used to render the passthrough camera image (i.e. AR
         /// background).

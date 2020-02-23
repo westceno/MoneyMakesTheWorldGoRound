@@ -10,4 +10,9 @@ public class Menu : MonoBehaviour
         PlayerPrefs.SetInt("Count", 20);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void SideBar()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 }
