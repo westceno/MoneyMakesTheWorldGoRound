@@ -81,6 +81,7 @@
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReaderApi.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\ARMenu.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\ChangeMoneyText.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\FutureValue.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\HelloARController.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\Menu.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\DragGesture.cs" />
